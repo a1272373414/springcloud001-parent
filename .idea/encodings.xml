@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud001-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud001-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud001-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud001-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud001-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud001-logger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud001-monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud001-register" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud001-scanner" charset="UTF-8" />
+  </component>
+</project>

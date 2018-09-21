@@ -1,0 +1,167 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.tang.springcloud001.core.mutidatasource.config.MutiDataSourceProperties",
+      "name": "guns.muti-datasource",
+      "type": "com.tang.springcloud001.core.mutidatasource.config.MutiDataSourceProperties"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.config.DefaultProperties",
+      "name": "roses.log",
+      "sourceMethod": "logProperties()",
+      "type": "com.tang.springcloud001.core.config.properties.LogProperties"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.config.DefaultProperties",
+      "name": "spring.application.name",
+      "sourceMethod": "appNameProperties()",
+      "type": "com.tang.springcloud001.core.config.properties.AppNameProperties"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.config.DefaultMybaitsPlusConfig",
+      "name": "spring.datasource",
+      "sourceMethod": "druidProperties()",
+      "type": "com.tang.springcloud001.core.config.properties.DruidProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.tang.springcloud001.core.mutidatasource.config.MutiDataSourceProperties",
+      "name": "guns.muti-datasource.default-data-source-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.mutidatasource.config.MutiDataSourceProperties",
+      "name": "guns.muti-datasource.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.mutidatasource.config.MutiDataSourceProperties",
+      "name": "guns.muti-datasource.url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.mutidatasource.config.MutiDataSourceProperties",
+      "name": "guns.muti-datasource.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.config.properties.LogProperties",
+      "defaultValue": "error,info",
+      "name": "roses.log.level",
+      "description": "记录日志的级别（逗号隔开）",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.config.properties.LogProperties",
+      "defaultValue": true,
+      "name": "roses.log.trace",
+      "description": "是否开启trace链式记录",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.config.properties.AppNameProperties",
+      "name": "spring.application.name.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.config.properties.DruidProperties",
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.config.properties.DruidProperties",
+      "defaultValue": "stat",
+      "name": "spring.datasource.filters",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.config.properties.DruidProperties",
+      "defaultValue": 2,
+      "name": "spring.datasource.initial-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.config.properties.DruidProperties",
+      "defaultValue": 20,
+      "name": "spring.datasource.max-active",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.config.properties.DruidProperties",
+      "defaultValue": 20,
+      "name": "spring.datasource.max-pool-prepared-statement-per-connection-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.config.properties.DruidProperties",
+      "defaultValue": 60000,
+      "name": "spring.datasource.max-wait",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.config.properties.DruidProperties",
+      "defaultValue": 300000,
+      "name": "spring.datasource.min-evictable-idle-time-millis",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.config.properties.DruidProperties",
+      "defaultValue": 1,
+      "name": "spring.datasource.min-idle",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.config.properties.DruidProperties",
+      "name": "spring.datasource.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.config.properties.DruidProperties",
+      "defaultValue": true,
+      "name": "spring.datasource.pool-prepared-statements",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.config.properties.DruidProperties",
+      "defaultValue": false,
+      "name": "spring.datasource.test-on-borrow",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.config.properties.DruidProperties",
+      "defaultValue": false,
+      "name": "spring.datasource.test-on-return",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.config.properties.DruidProperties",
+      "defaultValue": true,
+      "name": "spring.datasource.test-while-idle",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.config.properties.DruidProperties",
+      "defaultValue": 60000,
+      "name": "spring.datasource.time-between-eviction-runs-millis",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.config.properties.DruidProperties",
+      "name": "spring.datasource.url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.config.properties.DruidProperties",
+      "name": "spring.datasource.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.tang.springcloud001.core.config.properties.DruidProperties",
+      "defaultValue": "SELECT 'x'",
+      "name": "spring.datasource.validation-query",
+      "type": "java.lang.String"
+    }
+  ]
+}

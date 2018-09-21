@@ -1,0 +1,84 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: roses-config
+  profiles:
+    active: @spring.active@
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+---
+
+spring:
+  profiles: local
+  cloud:
+    config:
+      server:
+        bootstrap: true
+        git:
+          uri: https://github.com/a1272373414/springcloud01-configserver.git
+          username:
+          password:
+          search-paths: /springcloud001
+#          basedir: ./tmp
+  boot:
+    admin:
+      client:
+        url: http://127.0.0.1:9000
+        instance:
+          service-base-url: http://127.0.0.1:8002
+
+---
+
+spring:
+  profiles: dev
+  cloud:
+    config:
+      server:
+        bootstrap: true
+        git:
+          uri: https://github.com/a1272373414/springcloud01-configserver.git
+          username:
+          password:
+          search-paths: /springcloud001
+  boot:
+    admin:
+      client:
+        url: http://127.0.0.1:9000
+        instance:
+          service-base-url: http://127.0.0.1:8002
+
+log:
+  path: /apps/config-server
+
+---
+
+spring:
+  profiles: produce
+  cloud:
+    config:
+      server:
+        bootstrap: true
+        git:
+          uri: https://github.com/a1272373414/springcloud01-configserver.git
+          username:
+          password:
+          search-paths: /springcloud001
+  boot:
+    admin:
+      client:
+        url: http://127.0.0.1:9000
+        instance:
+          service-base-url: http://127.0.0.1:8002
+
+log:
+  path: /apps/config-server

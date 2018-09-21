@@ -1,0 +1,13 @@
+# AutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.tang.springcloud001.core.config.DefaultActuatorSecurityConfig,\
+com.tang.springcloud001.core.config.DefaultAopConfig,\
+com.tang.springcloud001.core.config.DefaultAuthConfig,\
+com.tang.springcloud001.core.config.DefaultCacheConfig,\
+com.tang.springcloud001.core.config.DefaultFastjsonConfig,\
+com.tang.springcloud001.core.config.DefaultMybaitsPlusConfig,\
+com.tang.springcloud001.core.config.DefaultProperties,\
+com.tang.springcloud001.core.config.DefaultSwaggerConfig,\
+com.tang.springcloud001.core.config.DefaultUtilConfig,\
+com.tang.springcloud001.core.config.DefaultWebConfig,\
+com.tang.springcloud001.core.log.impl.LogProducerServiceImpl

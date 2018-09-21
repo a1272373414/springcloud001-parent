@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud001-api" />
+        <module name="springcloud001-auth" />
+        <module name="springcloud001-config" />
+        <module name="springcloud001-core" />
+        <module name="springcloud001-gateway" />
+        <module name="springcloud001-logger" />
+        <module name="springcloud001-monitor" />
+        <module name="springcloud001-register" />
+        <module name="springcloud001-scanner" />
+        <module name="Springcloud001parent" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud001-api" target="1.8" />
+      <module name="springcloud001-auth" target="1.8" />
+      <module name="springcloud001-config" target="1.8" />
+      <module name="springcloud001-core" target="1.8" />
+      <module name="springcloud001-gateway" target="1.8" />
+      <module name="springcloud001-logger" target="1.8" />
+      <module name="springcloud001-monitor" target="1.8" />
+      <module name="springcloud001-parent" target="1.8" />
+      <module name="springcloud001-register" target="1.8" />
+      <module name="springcloud001-scanner" target="1.8" />
+      <module name="Springcloud001parent" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
